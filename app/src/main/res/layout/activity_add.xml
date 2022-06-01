@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    tools:context=".AddActivity">
+
+
+    <EditText
+        android:id="@+id/editIsbn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:minHeight="50dp"
+        android:inputType="textPersonName"
+        android:hint="ISBN..." />
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:minHeight="50dp"
+        android:inputType="textPersonName"
+        android:hint="Title..." />
+
+    <EditText
+        android:id="@+id/editSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:minHeight="50dp"
+        android:inputType="textPersonName"
+        android:hint="Subtitle..." />
+
+    <EditText
+        android:id="@+id/editAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:minHeight="50dp"
+        android:inputType="textPersonName"
+        android:hint="Author..." />
+
+    <EditText
+        android:id="@+id/editPublished"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:minHeight="50dp"
+        android:inputType="textPersonName"
+        android:hint="Published..." />
+
+    <EditText
+        android:id="@+id/editPublisher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:minHeight="50dp"
+        android:inputType="textPersonName"
+        android:hint="Publisher..." />
+
+    <EditText
+        android:id="@+id/editPages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:minHeight="50dp"
+        android:inputType="textPersonName"
+        android:hint="Pages..." />
+
+    <EditText
+        android:id="@+id/editDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:minHeight="50dp"
+        android:inputType="textPersonName"
+        android:hint="Description..." />
+
+    <EditText
+        android:id="@+id/editWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:minHeight="50dp"
+        android:inputType="textPersonName"
+        android:hint="Website..." />
+
+    <Button
+        android:id="@+id/postButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add" />
+</LinearLayout>
